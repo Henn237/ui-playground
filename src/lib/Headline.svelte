@@ -220,7 +220,7 @@
     on:click={playSmoothAnimation}
     class="play-button"
   >
-    Play Animation
+    replay
   </button>
 </div>
 
