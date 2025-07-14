@@ -1,0 +1,77 @@
+/* MNKYJane Font Family */
+@font-face {
+    font-family: 'MNKYJane';
+    src: url('/fonts/MNKYJane-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'MNKYJane';
+    src: url('/fonts/MNKYJane-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'MNKYJane';
+    src: url('/fonts/MNKYJane-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'MNKYJane';
+    src: url('/fonts/MNKYJane-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'MNKYJane';
+    src: url('/fonts/MNKYJane-Extrabold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'MNKYJane';
+    src: url('/fonts/MNKYJane-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  /* Rhymes Text Font Family */
+  @font-face {
+    font-family: 'Rhymes Text';
+    src: url('/fonts/Rhymes Text Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Rhymes Text';
+    src: url('/fonts/Rhymes Text Regular Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @import 'tailwindcss/base';
+  @import 'tailwindcss/components';
+  @import 'tailwindcss/utilities';
+  
+  html, body {
+    background-color: #141414;
+    color: #FAF5F3;
+    margin: 0;
+    padding: 0;
+    font-family: 'MNKYJane', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
